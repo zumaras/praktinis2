@@ -9,6 +9,7 @@ public class vkreditas {
 		this.l=l;
 		this.is=is;
 	}
+
 	
 	public void kreditas(){
 		
@@ -20,13 +21,13 @@ public class vkreditas {
 				{		Ksum=kreditosuma(k,l);
 						Vimk=imokosAp(Ksum, l);
 						if(((Vimk/a)*100)<=40)
-							System.out.println("Kredità suteikti galima!" + " "
-									+ "Viso graþinti reikës: " + Ksum + " " 
-									+ "Menësine ámoka bus: " + Vimk);
+							System.out.println("Kredita suteikti galima!" + " "
+									+ "Viso grazinti reikes: " + Ksum + " "
+									+ "Menesine imoka bus: " + Vimk);
 							else System.out.println("Kredito suteikti negalime! ");}
 						else System.out.println("Kredito suteikti negalime! Perilgas terminas!");
-				else System.out.println("Kredito suteikti negalime! Praðoma suma yra permaþa arba per didelë!");
-		else System.out.println("Kredito suteikti negalime! Jusu ásiskolinimai per dideli");	
+				else System.out.println("Kredito suteikti negalime! Prasoma suma yra per maza arba per didele!");
+		else System.out.println("Kredito suteikti negalime! Jusu isiskolinimai per dideli");
 		
 	}
 	private double kreditosuma(double k, double l){
