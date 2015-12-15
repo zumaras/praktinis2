@@ -20,12 +20,12 @@ private double a, k, l, is, pa;
 				{		Ksum=kreditosuma(k,l);
 						Vimk=imokosAp(Ksum, l);
 						if(((Vimk/a)*100)<=40)
-							System.out.println("Kredità suteikti galima!" + " "
-									+ "Viso graþinti reikës: " + Ksum + " " 
-									+ "Menësinë ámoka bus: " + Vimk);
+							System.out.println("Kredita suteikti galima!" + " "
+									+ "Viso grazinti reikes: " + Ksum + " "
+									+ "Menesine imoka bus: " + Vimk);
 							else System.out.println("Kredito suteikti negalime! ");}
-						else System.out.println("Kredito suteikti negalime! Pastatas Persenas!");
-		else System.out.println("Kredito suteikti negalime! Jûsø ásiskolinimai per dideli");	
+						else System.out.println("Kredito suteikti negalime! Pastatas Per senas!");
+		else System.out.println("Kredito suteikti negalime! Jusu isiskolinimai per dideli");
 		
 	}
 	private double kreditosuma(double k, double l){
